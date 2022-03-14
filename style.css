@@ -316,6 +316,7 @@ h1 {
 .navbar {
   overflow: hidden;
   background-color: #775c2d;
+  color: white;
   position: fixed;
   z-index: 100;
   top: 0;
