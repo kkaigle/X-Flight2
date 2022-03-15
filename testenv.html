@@ -1,133 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-<title>GGA Home</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+    <!--This imports the "Lato" font to the website-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 
-/* Style the body */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  background: #2e1c04;
-}
+    <!--This is the common style file for the website-->
+    <link rel="stylesheet" href="styleV2.css">
+    
+    <!--This imports Font Awesome abilities to the website-->
+    <script src="https://kit.fontawesome.com/c0e1a20f99.js" crossorigin="anonymous"></script>
 
-/* Header/logo Title */
-.header {
-  padding: 80px;
-  text-align: center;
-  background: #775c2d;
-  color: #2e1c04;
-  background-image: url('https://user-images.githubusercontent.com/83706649/158400879-738dc15a-ca45-4eca-9a6a-53dd599316ed.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+    <!--This script manage the header & footer-->
+    <script src="template-manager.js"></script>
+    
+    <!--This is the favicon for the header of this page-->
+    <link rel="icon" href="https://user-images.githubusercontent.com/83706649/157738885-22fb645a-3744-4b1c-a8d4-3fd4955059ac.png" type="image/x-icon">
 
-/* Increase the font size of the heading */
-.header h1 {
-  font-size: 40px;
-}
-
-/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
-.navbar {
-  overflow: hidden;
-  background-color: #bd8228;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-}
-
-/* Style the navigation bar links */
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
-
-/* Change color on hover */
-.navbar a:hover {
-  background-color: #775c2d;
-  color: black;
-}
-
-/* Active/current link */
-.navbar a.active {
-  background-color: #bd8228;
-  color: white;
-}
-
-/* Column container */
-.row {  
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-}
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  background-color: #2e1c04;
-  padding: 20px;
-  color: white;
-  text-align: center;
-}
-
-/* Main column */
-.main {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
-  background-color: 775c2d;
-  padding: 20px;
-  color: white;
-}
-
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #2e1c04;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #2e1c04;
-}
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
-}
-</style>
-</head>
+    <!--Set the title here 
+    vvvvvvvvvvvvvvvvvvvvvvv-->
+    GGA Home
+</head>      
+<body>    
+    <div class="content">
+        <!--This is the content of the page, when creating a new page, only change this
+        vvvvvvvvvvvvvvvvvvvvvvvvvvvvv--> 
 <body>
 
 <div class="header">
