@@ -1,12 +1,5 @@
 html {
     height: 100%;
-}
-/*COLORS: BACKGROUND: #555758, TEXT: WHITE, SECONDARY CONTAINERS: #547F97, BORDERS: #000000*/
-
-.websitecontent {
-       margin: auto;
-       width: 75%;
-       text-align: center;
 
 * {
   box-sizing: border-box;
