@@ -1,17 +1,88 @@
 <head>
-    <!--This imports the "Lato" font to the website-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 
-    <!--This is the common style file for the website-->
-    <link rel="stylesheet" href="stylefleet.css">
+/* HERE ARE THE STYLES FOR THE FLEET INVENTORY*/
+* {
+  box-sizing: border-box;
+}
 
-    <!--This script manage the header & footer-->
-    <script src="template-manager.js"></script>
+.bgimg {
+  background-image: url('https://user-images.githubusercontent.com/83706649/158453333-cebac886-f46f-4f95-b6d2-e64dd0bd7a90.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
 
-    <!--Set the title here
-    vvvvvvvvvvvvvvvvvvvvvvv-->                                  
-  <title>GGA Fleet</title>
-    </head>
+.fleetmain {
+  max-width: 1000px;
+  margin: auto;
+  box-shadow: 5px 10px 8px #88888;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.fleetrow {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.fleetrow,
+.fleetrow > .fleetcolumn {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.fleetcolumn {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.fleetrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.fleetcontent {
+  background-color: #547F97;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/* The "show" class is added to the filtered elements */
+.fleetshow {
+  display: block;
+}
+
+/* Style the buttons */
+.fleetbtn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.fleetbtn:hover {
+  background-color: #ddd;
+}
+
+.fleetbtn.active {
+  background-color: #666;
+  color: black;
+  padding: 12px 16px;
+  width: auto;
+}
+
+</head>
+
+<title>GGA Fleet</title>
+
 <body>
     <div class="content">
         <!--This is the content of the page, when creating a new page, only change this
