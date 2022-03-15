@@ -22,6 +22,11 @@ body {
     min-height: 100%;
 }
 
+.links {
+    color: white !important;
+    padding: 10px;
+}
+
 /* Header/logo Title */
 .header {
   padding: 80px;
