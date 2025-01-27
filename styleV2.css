@@ -19,8 +19,8 @@ body {
 .header {
   padding: 80px;
   text-align: center;
-  background: #darkblue;
-  color: #white;
+  background: darkblue;
+  color: darkblue;
   background-image: url('contentstorage/12625_1.PNG');
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,7 +35,7 @@ body {
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
 .navbar {
   overflow: hidden;
-  background-color: #lightblue;
+  background-color: lightblue;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -45,7 +45,7 @@ body {
 .navbar a {
   float: left;
   display: block;
-  color: white;
+  color: darkblue;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
@@ -92,7 +92,7 @@ body {
 .main {   
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
-  background-color: 775c2d;
+  background-color: darkblue;
   padding: 20px;
   color: white;
 }
