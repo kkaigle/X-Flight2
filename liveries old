@@ -39,101 +39,19 @@
 <div class="fleetmain">
 <div id="myBtnContainer">
   <button class="fleetbtn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="fleetbtn" onclick="filterSelection('ga')"> General Aviation</button>
-  <button class="fleetbtn" onclick="filterSelection('airliner')"> Airliners</button>
-  <button class="fleetbtn" onclick="filterSelection('helo')"> Rotary Wing</button>
+  <button class="fleetbtn" onclick="filterSelection('ga')"> Microsoft Flight Simulator</button>
+  <button class="fleetbtn" onclick="filterSelection('airliner')"> X-Plane</button>
 </div>
 
 <!-- Portfolio Gallery Grid -->
 <div class="fleetrow">
-  <div class="fleetcolumn airliner">
-    <div class="fleetcontent">
-      <img src="https://user-images.githubusercontent.com/83706649/158230003-b22c6ffd-303d-4cff-9d11-504e0780d327.png" alt="ACJ 320neo" style="width:100%">
-      <h4>Airbus ACJ320neo</h4>
-     <p>
-      <a class="links" href="" target="_blank">Livery Coming Soon</a></p>
-      </div>
-    </div>
-      <div class="fleetcolumn ga">
-    <div class="fleetcontent">
-      <img src="https://user-images.githubusercontent.com/83706649/158230003-b22c6ffd-303d-4cff-9d11-504e0780d327.png" alt="ACJ 320neo" style="width:100%">
-      <h4>Antonov AN-2</h4>
-     <p>
-      <a class="links" href="" target="_blank">Livery Coming Soon</a></p>
-      </div>
-    </div>
-  <div class="fleetcolumn airliner">
-    <div class="fleetcontent">
-      <img src="https://user-images.githubusercontent.com/83706649/158230003-b22c6ffd-303d-4cff-9d11-504e0780d327.png" alt="ACJ 320neo" style="width:100%">
-      <h4>BAe 146-100</h4>
-     <p>
-      <a class="links" href="" target="_blank">Livery Coming Soon</a></p>
-      </div>
-    </div>
-          <div class="fleetcolumn airliner">
-    <div class="fleetcontent">
-      <img src="https://user-images.githubusercontent.com/83706649/158230003-b22c6ffd-303d-4cff-9d11-504e0780d327.png" alt="ACJ 320neo" style="width:100%">
-      <h4>Boeing 737-800 BBJ</h4>
-     <p>
-      <a class="links" href="" target="_blank">Livery Coming Soon</a></p>
-      </div>
-    </div>    
-          <div class="fleetcolumn ga">
-    <div class="fleetcontent">
-      <img src="https://user-images.githubusercontent.com/83706649/158230003-b22c6ffd-303d-4cff-9d11-504e0780d327.png" alt="ACJ 320neo" style="width:100%">
-      <h4>Beechcraft Baron 58</h4>
-     <p>
-      <a class="links" href="" target="_blank">Livery Coming Soon</a></p>
-      </div>
-    </div>
- <div class="fleetcolumn ga">
-    <div class="fleetcontent">
-      <img src="https://user-images.githubusercontent.com/83706649/158230003-b22c6ffd-303d-4cff-9d11-504e0780d327.png" alt="ACJ 320neo" style="width:100%">
-      <h4>Beechcraft Bonanza F33A</h4>
-     <p>
-      <a class="links" href="" target="_blank">Livery Coming Soon</a></p>
-      </div>
-    </div>
- <div class="fleetcolumn ga">
-    <div class="fleetcontent">
-      <img src="https://user-images.githubusercontent.com/83706649/158230003-b22c6ffd-303d-4cff-9d11-504e0780d327.png" alt="ACJ 320neo" style="width:100%">
-      <h4>Beechcraft Bonanza G36</h4>
-     <p>
-      <a class="links" href="" target="_blank">Livery Coming Soon</a></p>
-      </div>
-    </div>
-     <div class="fleetcolumn airliner">
-    <div class="fleetcontent">
-      <img src="https://user-images.githubusercontent.com/83706649/158230003-b22c6ffd-303d-4cff-9d11-504e0780d327.png" alt="ACJ 320neo" style="width:100%">
-      <h4>Beechcraft King Air 350</h4>
-     <p>
-      <a class="links" href="" target="_blank">Livery Coming Soon</a></p>
-      </div>
-    </div>
-         <div class="fleetcolumn airliner">
-    <div class="fleetcontent">
-      <img src="https://user-images.githubusercontent.com/83706649/158230003-b22c6ffd-303d-4cff-9d11-504e0780d327.png" alt="ACJ 320neo" style="width:100%">
-      <h4>Boeing 727-200 BBJ</h4>
-     <p>
-      <a class="links" href="" target="_blank">Livery Coming Soon</a></p>
-      </div>
-    </div>
-             <div class="fleetcolumn airliner">
-    <div class="fleetcontent">
-      <img src="https://user-images.githubusercontent.com/83706649/158230003-b22c6ffd-303d-4cff-9d11-504e0780d327.png" alt="ACJ 320neo" style="width:100%">
-      <h4>Bombardier Challenger 650</h4>
-     <p>
-      <a class="links" href="" target="_blank">Livery Coming Soon</a></p>
-      </div>
-    </div>
-                 <div class="fleetcolumn airliner">
-    <div class="fleetcontent">
-      <img src="https://user-images.githubusercontent.com/83706649/158230003-b22c6ffd-303d-4cff-9d11-504e0780d327.png" alt="ACJ 320neo" style="width:100%">
-      <h4>Bombardier CRJ700ER</h4>
-     <p>
-      <a class="links" href="" target="_blank">Livery Coming Soon</a></p>
-      </div>
-    </div>
+<div class="	fleetcolumn Microsoft Flight Simulator	">
+<div class="	fleetcontent	">
+		
+<h4>	Fenix A320ceo	</h4>
+<p>		
+<a class="links" href="" target="_blank">	Livery Coming Soon	</a></p>
+</div>		
                                                                                                                                          
 
 <!-- END GRID -->
@@ -195,3 +113,4 @@ for (var i = 0; i < btns.length; i++) {
         
         </body>
 </html>
+
